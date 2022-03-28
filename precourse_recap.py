@@ -8,6 +8,7 @@ number_1 = 20
 number_2 = 30
 
 def sum():
-    print(number_1 + number_2)
+    sum_total = number_1 + number_2
+    print(f'The sum of {number_1} and {number_2} is {sum_total}')
 
 sum()
